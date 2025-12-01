@@ -7,7 +7,7 @@ title: 飼育日記
 
 The aquarium staff maintain this digital log to track feeding schedules, behavioral notes, and minor maintenance alerts. School groups and visitors are welcome to browse recent entries—though certain operational details remain restricted to authorized personnel.
 
-<img src="/assets/fishes/4e3ff3ff51edb565a05d1c67bb41bc19.jpg" alt="Tank observation" class="banner broken-banner">
+<img src="{{ '/assets/fishes/4e3ff3ff51edb565a05d1c67bb41bc19.jpg' | url }}" alt="Tank observation" class="banner broken-banner">
 
 ---
 
@@ -33,7 +33,7 @@ The aquarium staff maintain this digital log to track feeding schedules, behavio
   </div>
 </section>
 
-<img src="/assets/fishes/8b29224d759496423db99a3dacf0dd76.jpg" alt="Jellyfish observation" class="banner broken-banner">
+<img src="{{ '/assets/fishes/8b29224d759496423db99a3dacf0dd76.jpg' | url }}" alt="Jellyfish observation" class="banner broken-banner">
 
 <section class="panel">
   <div class="panel-title">2003-07-12 — Touch Pool Inspection</div>
@@ -78,12 +78,12 @@ The aquarium staff maintain this digital log to track feeding schedules, behavio
   <tr><td>Cell D-04 Subject</td><td class="flag">[RESTRICTED]</td><td>L4+ authorization required</td></tr>
 </table>
 
-<img src="/assets/fishes/dcfef95c8cf8761f2d1a579e670fa5dc.jpg" alt="Feeding time observation" class="banner broken-banner">
+<img src="{{ '/assets/fishes/dcfef95c8cf8761f2d1a579e670fa5dc.jpg' | url }}" alt="Feeding time observation" class="banner broken-banner">
 
 ---
 
 **Note:** Entries marked `[REDACTED]` or `[DATA REMOVED]` are withheld pending review by facility management. Please report any unusual readings or behaviors to duty staff immediately.
 
 <p style="text-align: center; margin-top: 40px;">
-  <a href="/" style="text-decoration: underline;">← Back to Aquarium Terminal</a>
+  <a href="{{ '/' | url }}" style="text-decoration: underline;">← Back to Aquarium Terminal</a>
 </p>

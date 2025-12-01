@@ -7,7 +7,7 @@ title: 水槽エリア
 
 The Tank Zone features our most engaging installations, where visitors can observe marine life up close through reinforced viewing panes, participate in guided touch experiences, and explore aquatic ecosystems from tide pools to the deep ocean trench.
 
-<img src="/assets/fishes/48798b4dbf84edbfe19c8e92eb89d346.jpg" alt="Main tank viewing area" class="banner broken-banner">
+<img src="{{ '/assets/fishes/48798b4dbf84edbfe19c8e92eb89d346.jpg' | url }}" alt="Main tank viewing area" class="banner broken-banner">
 
 ---
 
@@ -33,7 +33,7 @@ The Tank Zone features our most engaging installations, where visitors can obser
   </div>
 </section>
 
-<img src="/assets/fishes/f08caa879bb7f6641886ea7da6c289e9.jpg" alt="Touch pool area" class="banner broken-banner">
+<img src="{{ '/assets/fishes/f08caa879bb7f6641886ea7da6c289e9.jpg' | url }}" alt="Touch pool area" class="banner broken-banner">
 
 <section class="panel">
   <div class="panel-title">Tide Pool Touch Deck</div>
@@ -93,5 +93,5 @@ The Tank Zone features our most engaging installations, where visitors can obser
 **Reminder:** Some exhibits operate on seasonal schedules or may close temporarily for specimen health or facility maintenance. Check with staff at the main terminal for real-time updates.
 
 <p style="text-align: center; margin-top: 40px;">
-  <a href="/" style="text-decoration: underline;">← Back to Aquarium Terminal</a>
+  <a href="{{ '/' | url }}" style="text-decoration: underline;">← Back to Aquarium Terminal</a>
 </p>
