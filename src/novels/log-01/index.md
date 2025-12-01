@@ -5,7 +5,7 @@ title: Deep Sea Log 01
 
 # Observation Log 01
 
-<img src="/assets/blog/2c2a884781f34087d982f6ec41d17f0c.jpg" alt="Deep Sea Log 01" class="banner broken-banner">
+<img src="{{ '/assets/blog/2c2a884781f34087d982f6ec41d17f0c.jpg' | url }}" alt="Deep Sea Log 01" class="banner broken-banner">
 
 <section class="panel">
   <div class="panel-title warning">OBSERVATION METADATA</div>
@@ -52,5 +52,5 @@ Specimen collection attempted but unsuccessful. Observation window has been flag
 </section>
 
 <p style="text-align: center; margin-top: 40px;">
-  <a href="/novels/" style="text-decoration: underline;">← Back to Archive</a>
+  <a href="{{ '/novels/' | url }}" style="text-decoration: underline;">← Back to Archive</a>
 </p>

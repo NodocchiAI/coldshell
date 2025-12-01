@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ title }} - ユリカゴ水族館</title>
   <link rel="stylesheet" href="https://unpkg.com/98.css">
-  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="{{ '/css/style.css' | url }}">
 </head>
 <body>
   <div class="window">
@@ -20,11 +20,11 @@
     <div class="window-body">
       <nav aria-label="global navigation">
         <ul role="list">
-          <li><a href="/">トップ</a></li>
-          <li><a href="/novels/">深海エリア</a></li>
-          <li><a href="/posts/">飼育日記</a></li>
-          <li><a href="/games/">水槽エリア</a></li>
-          <li><a href="/about/">館内案内</a></li>
+          <li><a href="{{ '/' | url }}">トップ</a></li>
+          <li><a href="{{ '/novels/' | url }}">深海エリア</a></li>
+          <li><a href="{{ '/posts/' | url }}">飼育日記</a></li>
+          <li><a href="{{ '/games/' | url }}">水槽エリア</a></li>
+          <li><a href="{{ '/about/' | url }}">館内案内</a></li>
         </ul>
       </nav>
       <main>

@@ -5,7 +5,7 @@ title: Deep Sea Log 05
 
 # Observation Log 05
 
-<img src="/assets/blog/85d0d577f58fd4fa35a3bf0fe3719045.jpg" alt="Deep Sea Log 05" class="banner broken-banner">
+<img src="{{ '/assets/blog/85d0d577f58fd4fa35a3bf0fe3719045.jpg' | url }}" alt="Deep Sea Log 05" class="banner broken-banner">
 
 <section class="panel">
   <div class="panel-title warning">OBSERVATION METADATA</div>
@@ -23,5 +23,5 @@ title: Deep Sea Log 05
 Night shift observation captured unusual luminescent patterns near sublevel access corridor. Pattern does not match any cataloged species. Further investigation required. Area temporarily restricted for safety assessment.
 
 <p style="text-align: center; margin-top: 40px;">
-  <a href="/novels/" style="text-decoration: underline;">← Back to Archive</a>
+  <a href="{{ '/novels/' | url }}" style="text-decoration: underline;">← Back to Archive</a>
 </p>

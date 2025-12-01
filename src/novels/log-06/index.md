@@ -5,7 +5,7 @@ title: Deep Sea Log 06
 
 # Observation Log 06
 
-<img src="/assets/blog/8be11e3f4b25ec70b0b9a82701d687ae.jpg" alt="Deep Sea Log 06" class="banner broken-banner">
+<img src="{{ '/assets/blog/8be11e3f4b25ec70b0b9a82701d687ae.jpg' | url }}" alt="Deep Sea Log 06" class="banner broken-banner">
 
 <section class="panel">
   <div class="panel-title">OBSERVATION METADATA</div>
@@ -23,5 +23,5 @@ title: Deep Sea Log 06
 Touch pool inspection post-school group session. All specimens healthy and active. Sea stars responding well to visitor interaction. Educational staff reported positive engagement from students.
 
 <p style="text-align: center; margin-top: 40px;">
-  <a href="/novels/" style="text-decoration: underline;">← Back to Archive</a>
+  <a href="{{ '/novels/' | url }}" style="text-decoration: underline;">← Back to Archive</a>
 </p>

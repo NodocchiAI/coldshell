@@ -5,7 +5,7 @@ title: Deep Sea Log 08
 
 # Observation Log 08
 
-<img src="/assets/blog/b2045b5abf311b291a5eb162a850c0e3.jpg" alt="Deep Sea Log 08" class="banner broken-banner">
+<img src="{{ '/assets/blog/b2045b5abf311b291a5eb162a850c0e3.jpg' | url }}" alt="Deep Sea Log 08" class="banner broken-banner">
 
 <section class="panel">
   <div class="panel-title">OBSERVATION METADATA</div>
@@ -23,5 +23,5 @@ title: Deep Sea Log 08
 General facility documentation. Main exhibit hall during peak visitor hours. All tanks operational. Lighting systems functioning normally. Positive visitor feedback recorded.
 
 <p style="text-align: center; margin-top: 40px;">
-  <a href="/novels/" style="text-decoration: underline;">← Back to Archive</a>
+  <a href="{{ '/novels/' | url }}" style="text-decoration: underline;">← Back to Archive</a>
 </p>

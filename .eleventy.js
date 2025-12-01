@@ -15,6 +15,7 @@ module.exports = function (eleventyConfig) {
       output: "_site",
       includes: "includes",
       layouts: "includes/layouts"
-    }
+    },
+    pathPrefix: "/coldshell/"
   };
 };

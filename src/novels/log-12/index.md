@@ -5,7 +5,7 @@ title: Deep Sea Log 12
 
 # Observation Log 12
 
-<img src="/assets/blog/heart-gl2.png" alt="Deep Sea Log 12" class="banner broken-banner">
+<img src="{{ '/assets/blog/heart-gl2.png' | url }}" alt="Deep Sea Log 12" class="banner broken-banner">
 
 <section class="panel">
   <div class="panel-title warning">OBSERVATION METADATA</div>
@@ -30,5 +30,5 @@ title: Deep Sea Log 12
 </section>
 
 <p style="text-align: center; margin-top: 40px;">
-  <a href="/novels/" style="text-decoration: underline;">← Back to Archive</a>
+  <a href="{{ '/novels/' | url }}" style="text-decoration: underline;">← Back to Archive</a>
 </p>

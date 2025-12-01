@@ -5,7 +5,7 @@ title: Deep Sea Log 02
 
 # Observation Log 02
 
-<img src="/assets/blog/4962afc592e33b475bbcc27dea7cc47e.jpg" alt="Deep Sea Log 02" class="banner broken-banner">
+<img src="{{ '/assets/blog/4962afc592e33b475bbcc27dea7cc47e.jpg' | url }}" alt="Deep Sea Log 02" class="banner broken-banner">
 
 <section class="panel">
   <div class="panel-title warning">OBSERVATION METADATA</div>
@@ -47,5 +47,5 @@ Access to full observation report requires L4+ authorization. Contact facility d
 </section>
 
 <p style="text-align: center; margin-top: 40px;">
-  <a href="/novels/" style="text-decoration: underline;">← Back to Archive</a>
+  <a href="{{ '/novels/' | url }}" style="text-decoration: underline;">← Back to Archive</a>
 </p>

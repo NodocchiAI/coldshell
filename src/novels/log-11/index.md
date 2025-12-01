@@ -5,7 +5,7 @@ title: Deep Sea Log 11
 
 # Observation Log 11
 
-<img src="/assets/blog/fe66180aaea430d9bf25ab0738f49ed3.jpg" alt="Deep Sea Log 11" class="banner broken-banner">
+<img src="{{ '/assets/blog/fe66180aaea430d9bf25ab0738f49ed3.jpg' | url }}" alt="Deep Sea Log 11" class="banner broken-banner">
 
 <section class="panel">
   <div class="panel-title warning">OBSERVATION METADATA</div>
@@ -23,5 +23,5 @@ title: Deep Sea Log 11
 [DATA REMOVED] — External monitoring of containment cell D-04 during midnight shift. Pressure readings stable. No unauthorized access attempts detected. Full report available to L4+ personnel only.
 
 <p style="text-align: center; margin-top: 40px;">
-  <a href="/novels/" style="text-decoration: underline;">← Back to Archive</a>
+  <a href="{{ '/novels/' | url }}" style="text-decoration: underline;">← Back to Archive</a>
 </p>

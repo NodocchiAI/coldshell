@@ -5,7 +5,7 @@ title: Deep Sea Log 13
 
 # Observation Log 13
 
-<img src="/assets/blog/ROqno_sg_400x400.jpg" alt="Deep Sea Log 13" class="banner broken-banner">
+<img src="{{ '/assets/blog/ROqno_sg_400x400.jpg' | url }}" alt="Deep Sea Log 13" class="banner broken-banner">
 
 <section class="panel">
   <div class="panel-title">OBSERVATION METADATA</div>
@@ -25,5 +25,5 @@ Informal documentation of staff gathering during Night Aquarium Event preparatio
 Not all mysteries are sinister. Sometimes they're just people doing their jobs.
 
 <p style="text-align: center; margin-top: 40px;">
-  <a href="/novels/" style="text-decoration: underline;">← Back to Archive</a>
+  <a href="{{ '/novels/' | url }}" style="text-decoration: underline;">← Back to Archive</a>
 </p>

@@ -5,7 +5,7 @@ title: Deep Sea Log 04
 
 # Observation Log 04
 
-<img src="/assets/blog/8301f0e75a23e005ff4f7f25447b240b.jpg" alt="Deep Sea Log 04" class="banner broken-banner">
+<img src="{{ '/assets/blog/8301f0e75a23e005ff4f7f25447b240b.jpg' | url }}" alt="Deep Sea Log 04" class="banner broken-banner">
 
 <section class="panel">
   <div class="panel-title">OBSERVATION METADATA</div>
@@ -23,5 +23,5 @@ title: Deep Sea Log 04
 Mid-day feeding demonstration in Coral Reef Corner. Clownfish and damselfish exhibit typical feeding behavior. Coral polyps fully extended. Tank ecosystem stable. Visitors engaged and attentive during demonstration.
 
 <p style="text-align: center; margin-top: 40px;">
-  <a href="/novels/" style="text-decoration: underline;">← Back to Archive</a>
+  <a href="{{ '/novels/' | url }}" style="text-decoration: underline;">← Back to Archive</a>
 </p>

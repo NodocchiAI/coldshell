@@ -5,7 +5,7 @@ title: Deep Sea Log 03
 
 # Observation Log 03
 
-<img src="/assets/blog/5f6b977f195046d19ccf33bd89c3be1a.jpg" alt="Deep Sea Log 03" class="banner broken-banner">
+<img src="{{ '/assets/blog/5f6b977f195046d19ccf33bd89c3be1a.jpg' | url }}" alt="Deep Sea Log 03" class="banner broken-banner">
 
 <section class="panel">
   <div class="panel-title">OBSERVATION METADATA</div>
@@ -49,5 +49,5 @@ Popular photo opportunity. Consider implementing visitor photography guidelines 
 </section>
 
 <p style="text-align: center; margin-top: 40px;">
-  <a href="/novels/" style="text-decoration: underline;">← Back to Archive</a>
+  <a href="{{ '/novels/' | url }}" style="text-decoration: underline;">← Back to Archive</a>
 </p>

@@ -5,7 +5,7 @@ title: Deep Sea Log 07
 
 # Observation Log 07
 
-<img src="/assets/blog/915f5806f5807f4d2a11e1cfb2b09cf6.jpg" alt="Deep Sea Log 07" class="banner broken-banner">
+<img src="{{ '/assets/blog/915f5806f5807f4d2a11e1cfb2b09cf6.jpg' | url }}" alt="Deep Sea Log 07" class="banner broken-banner">
 
 <section class="panel">
   <div class="panel-title warning">OBSERVATION METADATA</div>
@@ -23,5 +23,5 @@ title: Deep Sea Log 07
 [PARTIAL DATA CORRUPTION] — Late-night observation session detected structural anomaly in observation window integrity. Emergency shutter protocols activated. Area secured. No personnel injuries reported. Investigation ongoing.
 
 <p style="text-align: center; margin-top: 40px;">
-  <a href="/novels/" style="text-decoration: underline;">← Back to Archive</a>
+  <a href="{{ '/novels/' | url }}" style="text-decoration: underline;">← Back to Archive</a>
 </p>
