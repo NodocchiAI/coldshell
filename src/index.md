@@ -3,11 +3,11 @@ layout: base.njk
 title: Home
 ---
 
-# Kuroshio Bay Municipal Aquarium
+# Yurikago Aquarium
 
 Welcome to the municipal aquarium & research annex serving Kanae City since 1989. Families, school groups, and registered researchers share this terminal—please mind the signage and report unusual readings to duty staff.
 
-<img src="/images/kuroshio-banner.gif" alt="Aquarium exterior banner" class="banner broken-banner">
+<img src="/assets/fishes/hospital.jpg" alt="Aquarium exterior banner" class="banner broken-banner">
 
 Last updated: **2003-07-14** · Contact the webmaster if timestamps do not advance for more than 72 hours.
 
@@ -51,13 +51,9 @@ Last updated: **2003-07-14** · Contact the webmaster if timestamps do not advan
 <section class="panel">
   <div class="panel-title">Aquarium & Research Facility Diagram (not to scale)</div>
   <div class="panel-body">
-```
-┌───────────────┐   ┌─────────────┐   ┌───────────────┐
-│ Public Exhibit│===│ Staff Wing  │===│ Deep Storage  │
-│ Floor         │   │ Research    │   │ Access        │
-│ (Level 1-2)   │   │ (Level S1)  │   │ Restricted    │
-└───────────────┘   └─────────────┘   └───────────────┘
-```
+
+<img src="/assets/fishes/hospital.jpg" alt="Aquarium exterior banner">
+
     <div class="legend">
       Legend: `===` secured corridor · Red nodes require escort · Diagram generated via KB-AQUA-01 terminal.
     </div>

@@ -4,6 +4,10 @@ module.exports = function (eleventyConfig) {
 
   // 画像等もコピーする場合
   eleventyConfig.addPassthroughCopy("src/images");
+  eleventyConfig.addPassthroughCopy("assets");
+
+  // JavaScriptをコピー
+  eleventyConfig.addPassthroughCopy("src/js");
 
   return {
     dir: {

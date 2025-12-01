@@ -3,27 +3,89 @@ layout: base.njk
 title: 深海ログ一覧
 ---
 
-# 深海エリア データログ
+# Deep Sea Archive — Visual Log System
 
-黒潮湾市立水族館の地下サーバに保存された、深海にまつわる掌編ログと研究レポートを公開しています。各ログを選ぶと個別ページへ移動し、BBS風コメント欄で感想を残せます。
+<section class="panel">
+  <div class="panel-title warning">CLASSIFIED RESEARCH MATERIAL</div>
+  <div class="panel-body">
+    This archive contains photographic documentation recovered from Deep Trench observation stations, specimen containment logs, and experimental imaging data. Some entries exhibit visual anomalies or timestamp inconsistencies.
+    <br><br>
+    <strong>⚠ Authorization Level:</strong> Public access granted for educational purposes only.<br>
+    <strong>⚠ Note:</strong> Click any image to view full observation report.
+  </div>
+</section>
 
-## 読み方ガイド
+## Archived Observations
 
-1. 気になるタイトルをクリック。  
-2. 開いた記事で `Deep-LINK` コードをコピーすると、お友だちにURLをメールできます。  
-3. 読了後は「感想ポスト」リンクからBBSへどうぞ。
+<div class="gallery-grid">
+  <a href="/novels/log-01/" class="gallery-item" data-src="/assets/blog/2c2a884781f34087d982f6ec41d17f0c.jpg">
+    <img alt="Deep Sea Log 01" />
+  </a>
 
-## 記事一覧
+  <a href="/novels/log-02/" class="gallery-item" data-src="/assets/blog/4962afc592e33b475bbcc27dea7cc47e.jpg">
+    <img alt="Deep Sea Log 02" />
+  </a>
 
-| タイトル | 概要 | 公開日 |
-| --- | --- | --- |
-| [ログ01: ネオン潮流手帖](./neon-tide-journal/) | 夜間メンテ班が体験した発光潮流の謎を追うレポート。 | 1996/07/08 |
-| [ログ02: 量子潜航メモ](./quantum-drift-report/) | 試験潜航艇「Q-Drift」で遭遇したノイズ生命の記録。 | 1996/07/02 |
-| [ログ03: ミラークラゲ観測記](./mirror-jelly-observer/) | 飼育員リナによる鏡面クラゲ展示の裏側エッセイ。 | 1996/06/26 |
+  <a href="/novels/log-03/" class="gallery-item" data-src="/assets/blog/5f6b977f195046d19ccf33bd89c3be1a.jpg">
+    <img alt="Deep Sea Log 03" />
+  </a>
 
-### 近日公開
+  <a href="/novels/log-04/" class="gallery-item" data-src="/assets/blog/8301f0e75a23e005ff4f7f25447b240b.jpg">
+    <img alt="Deep Sea Log 04" />
+  </a>
 
-- ログ04: シルエットペンギン航路図  
-- ログ05: ディープアーカイブ復旧メモ
+  <a href="/novels/log-05/" class="gallery-item" data-src="/assets/blog/85d0d577f58fd4fa35a3bf0fe3719045.jpg">
+    <img alt="Deep Sea Log 05" />
+  </a>
 
-深海エリアは常時更新中。掲示板で読みたいテーマを教えてください。
+  <a href="/novels/log-06/" class="gallery-item" data-src="/assets/blog/8be11e3f4b25ec70b0b9a82701d687ae.jpg">
+    <img alt="Deep Sea Log 06" />
+  </a>
+
+  <a href="/novels/log-07/" class="gallery-item" data-src="/assets/blog/915f5806f5807f4d2a11e1cfb2b09cf6.jpg">
+    <img alt="Deep Sea Log 07" />
+  </a>
+
+  <a href="/novels/log-08/" class="gallery-item" data-src="/assets/blog/b2045b5abf311b291a5eb162a850c0e3.jpg">
+    <img alt="Deep Sea Log 08" />
+  </a>
+
+  <a href="/novels/log-09/" class="gallery-item" data-src="/assets/blog/cfc80ffd11a825169cda9e35d43647ce.jpg">
+    <img alt="Deep Sea Log 09" />
+  </a>
+
+  <a href="/novels/log-10/" class="gallery-item" data-src="/assets/blog/db909f8cadd32a8c7b924ba6fdf1a0b1.jpg">
+    <img alt="Deep Sea Log 10" />
+  </a>
+
+  <a href="/novels/log-11/" class="gallery-item" data-src="/assets/blog/fe66180aaea430d9bf25ab0738f49ed3.jpg">
+    <img alt="Deep Sea Log 11" />
+  </a>
+
+  <a href="/novels/log-12/" class="gallery-item" data-src="/assets/blog/heart-gl2.png">
+    <img alt="Deep Sea Log 12" />
+  </a>
+
+  <a href="/novels/log-13/" class="gallery-item" data-src="/assets/blog/ROqno_sg_400x400.jpg">
+    <img alt="Deep Sea Log 13" />
+  </a>
+</div>
+
+<section class="panel">
+  <div class="panel-title alt">Archive Status</div>
+  <div class="panel-body">
+    <strong>Total Entries:</strong> 13<br>
+    <strong>Last Updated:</strong> 2003-07-14<br>
+    <strong>Pending Review:</strong> 3 entries flagged for anomaly analysis<br>
+    <strong>Access Level:</strong> PUBLIC (monitored)<br><br>
+    <em>Note: This archive updates periodically as new observation data is processed. Scroll to view all available entries. Images load on-demand to preserve terminal bandwidth.</em>
+  </div>
+</section>
+
+---
+
+<p style="text-align: center; margin-top: 40px;">
+  <a href="/" style="text-decoration: underline;">← Back to Aquarium Terminal</a>
+</p>
+
+<script src="/js/gallery.js"></script>

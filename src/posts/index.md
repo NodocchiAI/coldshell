@@ -1,0 +1,89 @@
+---
+layout: base.njk
+title: 飼育日記
+---
+
+# Keeper's Log — Daily Observations
+
+The aquarium staff maintain this digital log to track feeding schedules, behavioral notes, and minor maintenance alerts. School groups and visitors are welcome to browse recent entries—though certain operational details remain restricted to authorized personnel.
+
+<img src="/assets/fishes/4e3ff3ff51edb565a05d1c67bb41bc19.jpg" alt="Tank observation" class="banner broken-banner">
+
+---
+
+## Recent Entries
+
+<section class="panel">
+  <div class="panel-title">2003-07-14 — Morning Round (Sector A)</div>
+  <div class="panel-body">
+    <strong>Observer:</strong> K. Shimizu<br>
+    <strong>Time:</strong> 07:15<br>
+    <strong>Notes:</strong> Tank A-03 coral polyps fully extended. Salinity stable at 33.9‰. Two clownfish exhibiting normal pairing behavior near the anemone cluster. No anomalies detected.<br>
+    <em>Status: ROUTINE</em>
+  </div>
+</section>
+
+<section class="panel">
+  <div class="panel-title alt">2003-07-13 — Evening Feed (Jellyfish Room)</div>
+  <div class="panel-body">
+    <strong>Observer:</strong> M. Tanaka<br>
+    <strong>Time:</strong> 18:30<br>
+    <strong>Notes:</strong> Moon jellyfish fed on schedule. Light patterns adjusted for "Moonlight Pulses" display. One specimen drifting near filtration intake—gently redirected. Visitors reported calm, contemplative atmosphere.<br>
+    <em>Status: ROUTINE</em>
+  </div>
+</section>
+
+<img src="/assets/fishes/8b29224d759496423db99a3dacf0dd76.jpg" alt="Jellyfish observation" class="banner broken-banner">
+
+<section class="panel">
+  <div class="panel-title">2003-07-12 — Touch Pool Inspection</div>
+  <div class="panel-body">
+    <strong>Observer:</strong> Y. Nakamura<br>
+    <strong>Time:</strong> 14:00<br>
+    <strong>Notes:</strong> Tide Pool Touch Deck sanitized post-morning session. Sea stars and hermit crabs active. Replaced worn gloves (3 pairs). Reminded school group to avoid tapping on glass partitions.<br>
+    <em>Status: ROUTINE</em>
+  </div>
+</section>
+
+<section class="panel">
+  <div class="panel-title warning">2003-07-11 — Cell D-04 Access Restricted</div>
+  <div class="panel-body">
+    <strong>Observer:</strong> [REDACTED]<br>
+    <strong>Time:</strong> 22:47<br>
+    <strong>Notes:</strong> Minor pressure fluctuation detected in containment cell D-04. Access temporarily restricted to L4+ personnel. Monitoring equipment recalibrated. Subject remains stable. Incident logged with anomaly board.<br>
+    <em>Status: UNDER REVIEW</em>
+  </div>
+</section>
+
+<section class="panel">
+  <div class="panel-title alt">2003-07-10 — Deep Trench Gallery Maintenance</div>
+  <div class="panel-body">
+    <strong>Observer:</strong> H. Yoshida<br>
+    <strong>Time:</strong> 09:30<br>
+    <strong>Notes:</strong> Replaced burnt-out observation lamp in Deep Trench B-13. Audio tour cassette player serviced. Noted minor condensation on interior viewing pane—will monitor. No visitor complaints.<br>
+    <em>Status: ROUTINE</em>
+  </div>
+</section>
+
+---
+
+## Feeding Schedule Reference
+
+<table class="status-table">
+  <tr><th>Species / Area</th><th>Feed Time</th><th>Notes</th></tr>
+  <tr><td>Coral Reef Fish</td><td>08:00 / 16:00</td><td>Public demo at 11:00, 15:00</td></tr>
+  <tr><td>Jellyfish</td><td>18:30</td><td>Brine shrimp suspension</td></tr>
+  <tr><td>Deep Trench Specimens</td><td>20:00</td><td>Staff only—no public access</td></tr>
+  <tr><td>Touch Pool Invertebrates</td><td>Continuous filtration</td><td>Supplemental feed as needed</td></tr>
+  <tr><td>Cell D-04 Subject</td><td class="flag">[RESTRICTED]</td><td>L4+ authorization required</td></tr>
+</table>
+
+<img src="/assets/fishes/dcfef95c8cf8761f2d1a579e670fa5dc.jpg" alt="Feeding time observation" class="banner broken-banner">
+
+---
+
+**Note:** Entries marked `[REDACTED]` or `[DATA REMOVED]` are withheld pending review by facility management. Please report any unusual readings or behaviors to duty staff immediately.
+
+<p style="text-align: center; margin-top: 40px;">
+  <a href="/" style="text-decoration: underline;">← Back to Aquarium Terminal</a>
+</p>
