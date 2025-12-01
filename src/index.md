@@ -7,9 +7,9 @@ title: Home
 
 Welcome to the municipal aquarium & research annex serving Kanae City since 1989. Families, school groups, and registered researchers share this terminal—please mind the signage and report unusual readings to duty staff.
 
-<img src="{{ '/assets/fishes/hospital.jpg' | url }}" alt="Aquarium exterior banner" class="banner broken-banner">
-
 Last updated: **2003-07-14** · Contact the webmaster if timestamps do not advance for more than 72 hours.
+
+## Exhibits
 
 <section class="panel">
   <div class="panel-title">Today's Exhibits</div>
@@ -51,12 +51,12 @@ Last updated: **2003-07-14** · Contact the webmaster if timestamps do not advan
 <section class="panel">
   <div class="panel-title">Aquarium & Research Facility Diagram (not to scale)</div>
   <div class="panel-body">
-
-<img src="{{ '/assets/fishes/hospital.jpg' | url }}" alt="Aquarium exterior banner">
-
+    <img src="{{ '/assets/fishes/hospital.jpg' | url }}" alt="Aquarium exterior banner" class="banner broken-banner">
+    <p>
     <div class="legend">
       Legend: `===` secured corridor · Red nodes require escort · Diagram generated via KB-AQUA-01 terminal.
     </div>
+    </p>
   </div>
 </section>
 
