@@ -2,8 +2,8 @@ backend:
   name: git-gateway
   branch: main
 
-media_folder: "assets/fishes"
-public_folder: "/assets/fishes"
+media_folder: "assets/blog"
+public_folder: "/assets/blog"
 
 # ブログフォルダ用の画像
 media_library:
@@ -56,20 +56,101 @@ collections:
           - {label: "Title", name: "title", widget: "string"}
           - {label: "本文", name: "body", widget: "markdown"}
 
-  # 深海エリア - 観察ログ（新規追加・編集可能）
+  # 深海エリア - 観察ログ（個別編集）
   - name: "deep-sea-logs"
     label: "深海エリア - 観察ログ"
-    folder: "src/novels"
-    create: true
-    slug: "log-{{slug}}"
-    filter: {field: "type", value: "log"}
-    fields:
-      - {label: "Layout", name: "layout", widget: "hidden", default: "base.njk"}
-      - {label: "Type", name: "type", widget: "hidden", default: "log"}
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Log番号", name: "log_number", widget: "string", hint: "例: 01, 02, 03..."}
-      - {label: "画像", name: "image", widget: "image", required: false, hint: "assets/blog/ 内の画像を選択"}
-      - {label: "本文", name: "body", widget: "markdown"}
+    files:
+      - label: "Log 01"
+        name: "log-01"
+        file: "src/novels/log-01/index.md"
+        fields:
+          - {label: "Layout", name: "layout", widget: "hidden", default: "base.njk"}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "本文", name: "body", widget: "markdown"}
+      - label: "Log 02"
+        name: "log-02"
+        file: "src/novels/log-02/index.md"
+        fields:
+          - {label: "Layout", name: "layout", widget: "hidden", default: "base.njk"}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "本文", name: "body", widget: "markdown"}
+      - label: "Log 03"
+        name: "log-03"
+        file: "src/novels/log-03/index.md"
+        fields:
+          - {label: "Layout", name: "layout", widget: "hidden", default: "base.njk"}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "本文", name: "body", widget: "markdown"}
+      - label: "Log 04"
+        name: "log-04"
+        file: "src/novels/log-04/index.md"
+        fields:
+          - {label: "Layout", name: "layout", widget: "hidden", default: "base.njk"}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "本文", name: "body", widget: "markdown"}
+      - label: "Log 05"
+        name: "log-05"
+        file: "src/novels/log-05/index.md"
+        fields:
+          - {label: "Layout", name: "layout", widget: "hidden", default: "base.njk"}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "本文", name: "body", widget: "markdown"}
+      - label: "Log 06"
+        name: "log-06"
+        file: "src/novels/log-06/index.md"
+        fields:
+          - {label: "Layout", name: "layout", widget: "hidden", default: "base.njk"}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "本文", name: "body", widget: "markdown"}
+      - label: "Log 07"
+        name: "log-07"
+        file: "src/novels/log-07/index.md"
+        fields:
+          - {label: "Layout", name: "layout", widget: "hidden", default: "base.njk"}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "本文", name: "body", widget: "markdown"}
+      - label: "Log 08"
+        name: "log-08"
+        file: "src/novels/log-08/index.md"
+        fields:
+          - {label: "Layout", name: "layout", widget: "hidden", default: "base.njk"}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "本文", name: "body", widget: "markdown"}
+      - label: "Log 09"
+        name: "log-09"
+        file: "src/novels/log-09/index.md"
+        fields:
+          - {label: "Layout", name: "layout", widget: "hidden", default: "base.njk"}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "本文", name: "body", widget: "markdown"}
+      - label: "Log 10"
+        name: "log-10"
+        file: "src/novels/log-10/index.md"
+        fields:
+          - {label: "Layout", name: "layout", widget: "hidden", default: "base.njk"}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "本文", name: "body", widget: "markdown"}
+      - label: "Log 11"
+        name: "log-11"
+        file: "src/novels/log-11/index.md"
+        fields:
+          - {label: "Layout", name: "layout", widget: "hidden", default: "base.njk"}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "本文", name: "body", widget: "markdown"}
+      - label: "Log 12"
+        name: "log-12"
+        file: "src/novels/log-12/index.md"
+        fields:
+          - {label: "Layout", name: "layout", widget: "hidden", default: "base.njk"}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "本文", name: "body", widget: "markdown"}
+      - label: "Log 13"
+        name: "log-13"
+        file: "src/novels/log-13/index.md"
+        fields:
+          - {label: "Layout", name: "layout", widget: "hidden", default: "base.njk"}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "本文", name: "body", widget: "markdown"}
 
   # 深海エリア - その他のノベル
   - name: "novels"
