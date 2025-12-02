@@ -1,0 +1,7 @@
+[build]
+  command = "ELEVENTY_ENV=netlify npm run build"
+  publish = "_site"
+
+[build.environment]
+  NODE_VERSION = "20"
+  ELEVENTY_ENV = "netlify"

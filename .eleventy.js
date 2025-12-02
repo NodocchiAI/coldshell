@@ -19,6 +19,7 @@ module.exports = function (eleventyConfig) {
       includes: "includes",
       layouts: "includes/layouts"
     },
-    pathPrefix: "/coldshell/"
+    // Netlifyではルートパス、GitHub Pagesではサブディレクトリ
+    pathPrefix: process.env.ELEVENTY_ENV === "netlify" ? "/" : "/coldshell/"
   };
 };
