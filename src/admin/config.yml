@@ -5,11 +5,6 @@ backend:
 media_folder: "assets/fishes"
 public_folder: "/assets/fishes"
 
-# プレビュースタイルを適用
-preview_styles:
-  - https://unpkg.com/98.css
-  - /css/style.css
-
 # ブログフォルダ用の画像
 media_library:
   name: uploadcare

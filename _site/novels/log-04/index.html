@@ -6,6 +6,7 @@
   <title>Deep Sea Log 04 - ユリカゴ水族館</title>
   <link rel="stylesheet" href="https://unpkg.com/98.css">
   <link rel="stylesheet" href="/coldshell/css/style.css">
+  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 <body>
   <div class="window">
@@ -49,5 +50,16 @@
       </main>
     </div>
   </div>
+  <script>
+    if (window.netlifyIdentity) {
+      window.netlifyIdentity.on("init", user => {
+        if (!user) {
+          window.netlifyIdentity.on("login", () => {
+            document.location.href = "/admin/";
+          });
+        }
+      });
+    }
+  </script>
 </body>
 </html>
