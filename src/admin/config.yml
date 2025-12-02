@@ -1,9 +1,6 @@
 backend:
-  name: github
-  repo: NodocchiAI/coldshell
+  name: git-gateway
   branch: main
-  base_url: https://api.netlify.com
-  auth_endpoint: auth
 
 media_folder: "assets/fishes"
 public_folder: "/assets/fishes"
