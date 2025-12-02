@@ -1,0 +1,88 @@
+backend:
+  name: github
+  repo: NodocchiAI/coldshell
+  branch: main
+  base_url: https://api.netlify.com
+  auth_endpoint: auth
+
+media_folder: "assets/fishes"
+public_folder: "/assets/fishes"
+
+# ブログフォルダ用の画像
+media_library:
+  name: uploadcare
+  config:
+    publicKey: demopublickey
+
+collections:
+  # 固定ページ
+  - name: "pages"
+    label: "固定ページ"
+    files:
+      - label: "トップページ"
+        name: "index"
+        file: "src/index.md"
+        fields:
+          - {label: "Layout", name: "layout", widget: "hidden", default: "base.njk"}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "本文", name: "body", widget: "markdown"}
+
+      - label: "館内案内"
+        name: "about"
+        file: "src/about/index.md"
+        fields:
+          - {label: "Layout", name: "layout", widget: "hidden", default: "base.njk"}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "本文", name: "body", widget: "markdown"}
+
+      - label: "飼育日記"
+        name: "posts"
+        file: "src/posts/index.md"
+        fields:
+          - {label: "Layout", name: "layout", widget: "hidden", default: "base.njk"}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "本文", name: "body", widget: "markdown"}
+
+      - label: "水槽エリア"
+        name: "games"
+        file: "src/games/index.md"
+        fields:
+          - {label: "Layout", name: "layout", widget: "hidden", default: "base.njk"}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "本文", name: "body", widget: "markdown"}
+
+      - label: "深海エリア（ギャラリー）"
+        name: "novels-index"
+        file: "src/novels/index.md"
+        fields:
+          - {label: "Layout", name: "layout", widget: "hidden", default: "base.njk"}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "本文", name: "body", widget: "markdown"}
+
+  # 深海エリア - 観察ログ（新規追加・編集可能）
+  - name: "deep-sea-logs"
+    label: "深海エリア - 観察ログ"
+    folder: "src/novels"
+    create: true
+    slug: "log-{{slug}}"
+    filter: {field: "type", value: "log"}
+    fields:
+      - {label: "Layout", name: "layout", widget: "hidden", default: "base.njk"}
+      - {label: "Type", name: "type", widget: "hidden", default: "log"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Log番号", name: "log_number", widget: "string", hint: "例: 01, 02, 03..."}
+      - {label: "画像", name: "image", widget: "image", required: false, hint: "assets/blog/ 内の画像を選択"}
+      - {label: "本文", name: "body", widget: "markdown"}
+
+  # 深海エリア - その他のノベル
+  - name: "novels"
+    label: "深海エリア - その他ストーリー"
+    folder: "src/novels"
+    create: true
+    slug: "{{slug}}"
+    filter: {field: "type", value: "novel"}
+    fields:
+      - {label: "Layout", name: "layout", widget: "hidden", default: "base.njk"}
+      - {label: "Type", name: "type", widget: "hidden", default: "novel"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "本文", name: "body", widget: "markdown"}

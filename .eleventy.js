@@ -9,6 +9,9 @@ module.exports = function (eleventyConfig) {
   // JavaScriptをコピー
   eleventyConfig.addPassthroughCopy("src/js");
 
+  // Decap CMS adminフォルダをコピー
+  eleventyConfig.addPassthroughCopy("src/admin");
+
   return {
     dir: {
       input: "src",
